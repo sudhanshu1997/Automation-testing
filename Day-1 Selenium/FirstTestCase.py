@@ -1,3 +1,12 @@
+#Open URL-https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+#Enter username -Admin
+#enter password -admin123
+#click on login
+#Capture title of home page.(Actual title)
+#Verify title of home page OrangeHRM(Expected)
+#Close Browser
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
